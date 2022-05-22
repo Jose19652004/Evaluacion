@@ -1,0 +1,88 @@
+User@Owner MINGW64 ~/Videos/Proyecto Git (master)
+$ git init
+Initialized empty Git repository in C:/Users/User/Videos/Proyecto Git/.git/
+
+User@Owner MINGW64 ~/Videos/Proyecto Git (master)
+$ git status -s
+?? Css/
+?? Html/
+?? Java/
+?? Python/
+
+User@Owner MINGW64 ~/Videos/Proyecto Git (master)
+$ git add Css
+
+User@Owner MINGW64 ~/Videos/Proyecto Git (master)
+$ git add Html
+
+User@Owner MINGW64 ~/Videos/Proyecto Git (master)
+$ git add Java
+
+User@Owner MINGW64 ~/Videos/Proyecto Git (master)
+$ git add Python
+
+User@Owner MINGW64 ~/Videos/Proyecto Git (master)
+$ git status -s
+A  "Css/Prueba Css.txt"
+A  "Html/Prueba Html.txt"
+A  "Java/Prueba Java.txt"
+A  "Python/Prueba Python.txt"
+
+User@Owner MINGW64 ~/Videos/Proyecto Git (master)
+$ git commit -m "Comienzo del proyecto"
+[master (root-commit) 3cde92e] Comienzo del proyecto
+ 4 files changed, 4 insertions(+)
+ create mode 100644 Css/Prueba Css.txt
+ create mode 100644 Html/Prueba Html.txt
+ create mode 100644 Java/Prueba Java.txt
+ create mode 100644 Python/Prueba Python.txt
+
+User@Owner MINGW64 ~/Videos/Proyecto Git (master)
+$ git log --oneline
+3cde92e (HEAD -> master) Comienzo del proyecto
+
+User@Owner MINGW64 ~/Videos/Proyecto Git (master)
+$ git status -s
+ M "Css/Prueba Css.txt"
+ M "Html/Prueba Html.txt"
+ M "Java/Prueba Java.txt"
+ M "Python/Prueba Python.txt"
+
+User@Owner MINGW64 ~/Videos/Proyecto Git (master)
+$ git add Css
+
+User@Owner MINGW64 ~/Videos/Proyecto Git (master)
+$ git status -s
+M  "Css/Prueba Css.txt"
+ M "Html/Prueba Html.txt"
+ M "Java/Prueba Java.txt"
+ M "Python/Prueba Python.txt"
+
+User@Owner MINGW64 ~/Videos/Proyecto Git (master)
+$ git add Html
+
+User@Owner MINGW64 ~/Videos/Proyecto Git (master)
+$ git add Java
+
+User@Owner MINGW64 ~/Videos/Proyecto Git (master)
+$ git add Python
+
+User@Owner MINGW64 ~/Videos/Proyecto Git (master)
+$ git status -s
+M  "Css/Prueba Css.txt"
+M  "Html/Prueba Html.txt"
+M  "Java/Prueba Java.txt"
+M  "Python/Prueba Python.txt"
+
+User@Owner MINGW64 ~/Videos/Proyecto Git (master)
+$ git commit -m "Segunda etapa del proyecto"
+[master fc5352c] Segunda etapa del proyecto
+ 4 files changed, 12 insertions(+), 4 deletions(-)
+
+User@Owner MINGW64 ~/Videos/Proyecto Git (master)
+$ git log --oneline
+fc5352c (HEAD -> master) Segunda etapa del proyecto
+3cde92e Comienzo del proyecto
+
+User@Owner MINGW64 ~/Videos/Proyecto Git (master)
+$
